@@ -5,7 +5,7 @@ const EXAMPLE = [
   {
     data: "2017-10-15",
     status: "status",
-    statusB: "Graduated with a B.S. in MIS from USF",
+    statusB: "Internship as a BA at Xerox Business Solutions",
     statusE: "Admission Open"
   },
   {
