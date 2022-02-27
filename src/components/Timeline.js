@@ -41,7 +41,7 @@ const EXAMPLE = [
   {
     data: "2021-10-15",
     status: "status",
-    statusB: "Left Citi to pursue softwaredevelopment work full time",
+    statusB: "Left Citi to pursue software development work full time",
     statusE: "Done"
   }
 ];
