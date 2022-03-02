@@ -3,32 +3,32 @@ export const projects = [
     title: "Vent Mental Health App",
     subtitle: "Mern Stack",
     description:
-      "Vent was designed as a blog style mental health awareness site with aggragated resources for individuals in need of help",
-    image: "./soon.jpg",
+      "Vent was designed as a blog style mental health awareness site with aggregated resources for individuals in need of help",
+    image: "./csoon.jpg",
     link: "https://github.com/shanevarnum",
   },
   {
     title: "Memory Game",
     subtitle: "Vanilla JS",
     description:
-      "This project is a simple vanilla JS based memeory game where you have chances to match pairs of cards for a memory test",
-    image: "./soon.jpg",
+      "This project is a simple vanilla JS based memory game where you have chances to match pairs of cards for a memory test",
+    image: "./csoon.jpg",
     link: "https://github.com/shanevarnum",
   },
   {
     title: "eCommerce Site",
     subtitle: "Mern + Next.js",
     description:
-      "I built this site as a competitor to Amazon to see if I could make the experience more enjoyable",
-    image: "./soon.jpg",
+      "I building this site as a competitor to Amazon to see if I could make the experience more enjoyable",
+    image: "./csoon.jpg",
     link: "https://github.com/shanevarnum",
   },
   {
     title: "Saucey Restaurant Page",
-    subtitle: "React Hooks",
+    subtitle: "Mern Stack",
     description:
       "Web restaurant application created for a local sauce company with a bangin' family recipe",
-    image: "./soon.jpg",
+    image: "./csoon.jpg",
     link: "https://github.com/shanevarnum",
   },
 ];

@@ -32,8 +32,8 @@ export default function Navbar() {
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 font-bold hover:text-white">
-          Hire Me
-          <ArrowCircleRightIcon className="font-bold w-5 h-5 ml-2 hover:text-white" />
+          Contact Me
+          <ArrowCircleRightIcon className="font-bold w-5 h-5 mb-0  ml-2 hover:text-white" />
         </a>
       </div>
     </header>

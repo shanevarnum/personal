@@ -65,13 +65,13 @@ export default class Timeline extends React.Component {
     return (
       <div className="container px-5 py-10 mx-auto">
       <div className="text-center mb-20">
-      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 mt-4 text-white"> Timeline </h1>
+      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-10 mt-10 text-white"> Timeline </h1>
         <div
           style={{
             width: "80%",
             height: "100px",
             margin: "0 auto",
-            marginTop: "30px",
+            marginTop: "10px",
             fontSize: "15px"
           }}
         >

@@ -40,6 +40,7 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
+              <h2>{project.title}</h2>
             </a>
           ))}
         </div>

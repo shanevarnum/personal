@@ -34,7 +34,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="sm:max-w-sm sm:w-full sm:w-1/2 w-5/6">
+        <div className="sm:max-w-sm sm:w-full sm:w-1/3 w-2/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"
