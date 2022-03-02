@@ -35,7 +35,7 @@ const EXAMPLE = [
   {
     data: "2021-06-05",
     status: "status",
-    statusB: "Took on a new position as App Development Analyst",
+    statusB: "Took on a new position as App Development Analyst.",
     statusE: "Done"
   },
   {
@@ -72,7 +72,7 @@ export default class Timeline extends React.Component {
             height: "100px",
             margin: "0 auto",
             marginTop: "10px",
-            fontSize: "15px"
+            fontSize: "12px"
           }}
         >
           <HorizontalTimeline
@@ -90,7 +90,7 @@ export default class Timeline extends React.Component {
           />
         </div>
         <div className="text-center">
-          {/* Prevoius:-{prevStatus} - Current Select:-{curStatus} */}
+          {/* Previous:-{prevStatus} - Current Select:-{curStatus} */}
           {curStatus}
         </div>
       </div>

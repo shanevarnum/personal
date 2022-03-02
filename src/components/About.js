@@ -12,7 +12,7 @@ export default function About() {
             a Software Developer
             <br/>
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-justify">
             Allow me to introduce myself! I am a tech professional with four years of
             industry IT experience. I spent a whole lot of it in the financial industry 
             as a production support engineer but I've moved on to greener pastures..
