@@ -24,11 +24,11 @@ export const projects = [
     link: "https://github.com/shanevarnum",
   },
   {
-    title: "Saucey Restaurant Page",
-    subtitle: "Mern Stack",
+    title: "HoneyDO",
+    subtitle: "Node + EJS",
     description:
-      "Web restaurant application created for a local sauce company with a bangin' family recipe",
-    image: "./csoon.jpg",
+      "Simple REST based to-do application with create, update, delete abilities. Try it out!",
+    image: "./todo.gif",
     link: "https://github.com/shanevarnum",
   },
 ];
