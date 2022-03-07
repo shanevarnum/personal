@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faLinkedin,
   faYoutube,
   faFacebook,
   faTwitter,
@@ -20,10 +21,10 @@ export default function Footer() {
         </a>
         <nav className="md:mr-auto md:ml-10 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
           <a
-          href="https://www.youtube.com/"
+          href="https://www.linkedin.com/in/shanevarnum/"
           className="youtube social ml-10 mr-10 hover:text-white"
         >
-          <FontAwesomeIcon icon={faYoutube} size="2x" />
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
         <a
           href="https://www.facebook.com/"
