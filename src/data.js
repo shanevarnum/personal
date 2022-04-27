@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Simple REST based to-do application with create, update, delete abilities. Try it out!",
     image: "./todo.gif",
-    link: "https://github.com/shanevarnum",
+    link: "https://github.com/shanevarnum/toDO",
   },
 ];
 
