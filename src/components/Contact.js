@@ -1,5 +1,3 @@
-// src/components/Contact.js
-
 import React from "react";
 
 export default function Contact() {
@@ -74,7 +72,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Send me a message about what you'd like to work on. Or, if you 
+            Send me a message about what you'd like to work on. Or, if you
             just want to talk thats totally cool too!
           </p>
           <div className="relative mb-4">

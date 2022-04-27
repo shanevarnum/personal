@@ -1,5 +1,3 @@
-// src/components/Testimonials
-
 import React from "react";
 import { testimonials } from "../data";
 

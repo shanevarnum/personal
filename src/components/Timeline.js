@@ -64,36 +64,36 @@ export default class Timeline extends React.Component {
 
     return (
       <div className="container px-5 py-10 mx-auto">
-      <div className="text-center mb-20">
-      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-10 mt-10 text-white"> Timeline </h1>
-        <div
-          style={{
-            width: "80%",
-            height: "100px",
-            margin: "0 auto",
-            marginTop: "10px",
-            fontSize: "12px"
-          }}
-        >
-          <HorizontalTimeline
-            styles={{
-              //background: "#f8f8f8",
-              foreground: "#1A79AD",
-              outline: "#dfdfdf"
+        <div className="text-center mb-20">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-10 mt-10 text-white"> Timeline </h1>
+          <div
+            style={{
+              width: "80%",
+              height: "100px",
+              margin: "0 auto",
+              marginTop: "10px",
+              fontSize: "12px"
             }}
-            index={this.state.curIdx}
-            indexClick={(index) => {
-              const curIdx = this.state.curIdx;
-              this.setState({ curIdx: index, prevIdx: curIdx });
-            }}
-            values={EXAMPLE.map((x) => x.data)}
-          />
+          >
+            <HorizontalTimeline
+              styles={{
+                //background: "#f8f8f8",
+                foreground: "#1A79AD",
+                outline: "#dfdfdf"
+              }}
+              index={this.state.curIdx}
+              indexClick={(index) => {
+                const curIdx = this.state.curIdx;
+                this.setState({ curIdx: index, prevIdx: curIdx });
+              }}
+              values={EXAMPLE.map((x) => x.data)}
+            />
+          </div>
+          <div className="text-center">
+            {/* Previous:-{prevStatus} - Current Select:-{curStatus} */}
+            {curStatus}
+          </div>
         </div>
-        <div className="text-center">
-          {/* Previous:-{prevStatus} - Current Select:-{curStatus} */}
-          {curStatus}
-        </div>
-      </div>
       </div>
     );
   }

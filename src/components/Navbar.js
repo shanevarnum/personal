@@ -1,5 +1,3 @@
-// src/components/Navbar.js
-
 import { ArrowCircleRightIcon } from "@heroicons/react/solid";
 import React from "react";
 

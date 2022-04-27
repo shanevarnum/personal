@@ -15,12 +15,12 @@ export default function App() {
   return (
     <main className="text-white bg-green-900 w-full h-full body-font">
       <Navbar />
-      <About />
-      <Timeline />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Contact />
+        <About />
+          <Timeline />
+            <Projects />
+            <Skills />
+          <Testimonials />
+        <Contact />
       <Footer />
     </main>
   );

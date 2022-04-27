@@ -1,5 +1,3 @@
-// src/components/Projects.js
-
 import React from "react";
 import { projects } from "../data";
 
@@ -13,9 +11,9 @@ export default function Projects() {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             My portfolio is made up of mostly Javascript/Mern projects but I
-            like to keep it interesting and work with a different mix 
-            sometimes to keep things fun. Think Java and 
-            Python. I also experiment with new topics like Web3 technologies. 
+            like to keep it interesting and work with a different mix
+            sometimes to keep things fun. Think Java and
+            Python. I also experiment with new topics like Web3 technologies.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
