@@ -1,52 +1,54 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
-  faFacebook,
+  faMedium,
   faTwitter,
   faInstagram,
-  faGithub
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
     <section id="footer">
-      <header className="bg-gray-800 md:sticky bottom-0 z-10">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a className="text-white mb-4 md:mb-0">
-            <a href="#social" className="ml-3 text-xl">
-              Find me on the following platforms
-            </a>
-          </a>
-          <nav className="md:mr-auto md:ml-10 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-            <a
-              href="https://www.linkedin.com/in/shanevarnum/"
-              className="youtube social ml-10 mr-10 hover:text-white"
-            >
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-            </a>
-            <a
-              href="https://www.facebook.com/"
-              className="facebook social ml-10 mr-10 hover:text-white"
-            >
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
-            </a>
+      <footer class="p-4 bg-gray-900 rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+        <span className="text-gray-500 justify-center items-center dark:text-gray-400">
+          © 2022 Shane Varnum
+        </span>
+        <ul class="flex flex-wrap justify-center items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li>
             <a
               href="http://www.instagram.com/"
-              className="instagram social ml-10 mr-10 hover:text-white"
+              className="instagram social mx-6 hover:text-white"
             >
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
-            <a href="https://www.twitter.com/shanevarnum" className="twitter social ml-10 mr-10 hover:text-white">
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/shanevarnum"
+              className="twitter social mx-6 hover:text-white"
+            >
               <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
-            <a href="https://github.com/shanevarnum" className="github social ml-10 mr-10 hover:text-white">
+          </li>
+          <li>
+            <a
+              href="https://github.com/shanevarnum"
+              className="github social mx-6 hover:text-white"
+            >
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
-          </nav>
-          <h1 className="font-bold">Copyright &copy;2022 Shane Varnum</h1>
-        </div>
-      </header>
+          </li>
+          <li>
+            <a
+              href="https://github.com/shanevarnum"
+              className="github social mx-6 hover:text-white"
+            >
+              <FontAwesomeIcon icon={faMedium} size="2x" />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </section>
   );
 }

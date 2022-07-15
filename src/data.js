@@ -33,28 +33,4 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "I hired Shane to work on a small applicaiton to help keep track of my eBay store inventory and I can say he definitely delivered. The application has more features than I expected and I can't believe how smooth the experience is.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "David Little",
-    company: "Independent Graphic Designer",
-  },
-  {
-    quote:
-      "Shane built an awesome site and related utilities we use for analytic purposes. These insights are super helpful and are presented so nicely. Thanks!",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Billy Howard",
-    company: "The Consumer Protection Firm",
-  },
-];
-
-export const skills = [
-  "JavaScript",
-  "React",
-  "Node",
-  "REST",
-  "Java",
-  "SQL"
-];
+export const skills = ["JavaScript", "React", "Node", "REST", "Java", "SQL"];
