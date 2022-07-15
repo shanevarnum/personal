@@ -3,15 +3,15 @@ import React from "react";
 export default function About() {
   return (
     <section id="about">
-      <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
-        <div className="sm:max-w-sm sm:w-full sm:w-1/3 w-2/6 mb-6 pb-4 mr-2">
+      <div className="container mx-auto flex px-6 py-10 md:flex-row flex-col items-center">
+        <div className=" sm:w-1/4 w-2/4 mb-6 pb-4 mr-2">
           <img
             className="object-cover object-center rounded"
             alt="hero"
             src="./headshot.png"
           />
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 pl-4 flex flex-col md:items-start md:text-right mb-8 md:mb-0 items-center text-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-right mb-8 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hello, I'm Shane &amp; I'm a Software Developer
             <br />
