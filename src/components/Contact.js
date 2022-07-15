@@ -26,12 +26,12 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container p-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap bg-black">
+      <div className="container p-5 pt-1 pb-8 mx-auto flex sm:flex-nowrap flex-wrap bg-black">
         <form
           netlify
           name="contact"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:mx-auto w-full md:py-8 md:mt-0 bg-black px-10 pt-8 pb-10 rounded"
+          className="lg:w-1/2 md:w-1/2 flex flex-col md:mx-auto w-auto md:py-8 md:mt-0 bg-gray-900 px-8 pt-8 pb-10 rounded"
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me

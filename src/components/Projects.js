@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section id="projects" className="text-white bg-black body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mt-20">
+        <div className="flex flex-col w-full mt-5">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-8 text-white">
             Check out some of my projects
           </h1>

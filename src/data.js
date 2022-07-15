@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "Vent Mental Health App",
-    subtitle: "Mern Stack",
+    title: "Crypto Price Tracker",
+    subtitle: "React, AntD and Axios",
     description:
-      "Vent was designed as a blog style mental health awareness site with aggregated resources for individuals in need of help",
+      "A React application that tracks the top 100 cryptocurrencies. Contains search and visualized API data.",
     image: "./csoon.jpg",
     link: "https://github.com/shanevarnum",
   },
@@ -11,15 +11,15 @@ export const projects = [
     title: "Memory Game",
     subtitle: "Vanilla JS",
     description:
-      "This project is a simple vanilla JS based memory game where you have chances to match pairs of cards for a memory test",
+      "This project is a simple vanilla JS based memory game where you have chances to match pairs of cards to test your memory.",
     image: "./csoon.jpg",
     link: "https://github.com/shanevarnum",
   },
   {
     title: "eCommerce Site",
-    subtitle: "Mern + Next.js",
+    subtitle: "React, Redux, Stripe and Firebase",
     description:
-      "I building this site as a competitor to Amazon to see if I could make the experience more enjoyable",
+      "This is an all inclusive eCommerce site prototype being built for a sauce company.",
     image: "./csoon.jpg",
     link: "https://github.com/shanevarnum",
   },
@@ -27,7 +27,7 @@ export const projects = [
     title: "HoneyDO",
     subtitle: "Node + EJS",
     description:
-      "Simple REST based to-do application with create, update, delete abilities. Try it out!",
+      "Simple REST based to-do application with typical create, update, delete abilities.",
     image: "./todo.gif",
     link: "https://github.com/shanevarnum/toDO",
   },
