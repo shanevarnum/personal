@@ -26,7 +26,8 @@ export const projects = [
   {
     title: "Uber Native",
     subtitle: "React Native, Redux, Google APIs",
-    description: "Uber ride hailing UI/UX clone.",
+    description:
+      "Uber ride hailing UI/UX clone with maps, pricing and distance/time calculation.",
     image: "./todo.gif",
     link: "https://github.com/shanevarnum/toDO",
   },
