@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: "Crypto Price Tracker",
-    subtitle: "React, AntD and Axios",
+    subtitle: "React, AntD, Axios",
     description:
       "A React application that tracks the top 100 cryptocurrencies. Contains search and visualized API data.",
     image: "./csoon.jpg",
-    link: "https://github.com/shanevarnum",
+    link: "https://github.com/shanevarnum/cryptoTracker_rapidAPI",
   },
   {
     title: "Memory Game",
@@ -13,21 +13,20 @@ export const projects = [
     description:
       "This project is a simple vanilla JS based memory game where you have chances to match pairs of cards to test your memory.",
     image: "./csoon.jpg",
-    link: "https://github.com/shanevarnum",
+    link: "https://github.com/shanevarnum/memories",
   },
   {
-    title: "eCommerce Site",
-    subtitle: "React, Redux, Stripe and Firebase",
+    title: "Ice Cream Shop",
+    subtitle: "React, React Query, MUI, Docker",
     description:
-      "This is an all inclusive eCommerce site prototype being built for a sauce company.",
+      "Full checkout flow for ordering various ice cream flavors. Served by Docker backend with custom express endpoints.",
     image: "./csoon.jpg",
-    link: "https://github.com/shanevarnum",
+    link: "https://github.com/shanevarnum/ice_cream_shop",
   },
   {
-    title: "HoneyDO",
-    subtitle: "Node + EJS",
-    description:
-      "Simple REST based to-do application with typical create, update, delete abilities.",
+    title: "Uber Native",
+    subtitle: "React Native, Redux, Google APIs",
+    description: "Uber ride hailing UI/UX clone.",
     image: "./todo.gif",
     link: "https://github.com/shanevarnum/toDO",
   },

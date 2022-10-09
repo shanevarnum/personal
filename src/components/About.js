@@ -11,9 +11,9 @@ export default function About() {
             src="./headshot.png"
           />
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-right mb-8 md:mb-0 items-center text-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-right mb-8 md:mb-0 items-center text-left">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hello, I'm Shane &amp; I'm a Software Developer
+            Hello, I'm Shane and I'm a Software Developer
             <br />
           </h1>
           <p className="mb-8 leading-relaxed text-justify">
@@ -22,11 +22,11 @@ export default function About() {
             career has taken me from Data Analyst, to Product Support Engineer
             to now, a React developer building eCommerce applications. I
             consider myself full stack and I've touched many tools and
-            technolgies throughout my career.
+            technologies throughout my career.
           </p>
           <div className="flex justify-center">
             <a
-              href="./Varnum_Resume.pdf"
+              href="./Varnum_Resume_Copy.pdf"
               target="_blank"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg font-bold"
             >
