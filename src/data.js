@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Uber ride hailing UI/UX clone with maps, pricing and distance/time calculation.",
     image: "./todo.gif",
-    link: "https://github.com/shanevarnum/toDO",
+    link: "https://github.com/shanevarnum/uber_native",
   },
 ];
 
