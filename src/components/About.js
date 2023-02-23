@@ -20,9 +20,7 @@ export default function About() {
             Allow me to introduce myself! I am a React developer at a local
             Progressive Web Development firm here in Tampa, Florida. My tech
             career has taken me from Data Analyst, to Product Support Engineer
-            to now, a React developer building eCommerce applications. I
-            consider myself full stack and I've touched many tools and
-            technologies throughout my career.
+            to now, a React developer building eCommerce applications.
           </p>
           <div className="flex justify-center">
             <a

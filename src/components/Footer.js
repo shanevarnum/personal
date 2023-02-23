@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <section id="footer">
       <footer class="p-4 bg-gray-900 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-        <span className="text-gray-500 justify-center items-center dark:text-gray-400">
+        <span className="text-gray-500 justify-center items-center dark:text-gray-400 ml-12">
           © 2022 Shane Varnum
         </span>
         <ul class="flex flex-wrap justify-center items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
